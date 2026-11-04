@@ -1,0 +1,41 @@
+/* Resume: a paper sheet on screen, one US Letter page in print. */
+.resume-page{background:var(--linen-deep) url(/images/grain.png)}
+.toolbar{position:sticky;top:0;z-index:10;background:var(--linen);border-bottom:1px solid var(--line)}
+.toolbar__in{display:flex;justify-content:space-between;align-items:center;gap:1rem;max-width:56rem;margin-inline:auto;padding:.7rem var(--gutter)}
+.toolbar__hint{max-width:56rem;margin:0 auto;padding:0 var(--gutter) .7rem;font-size:.875rem;color:var(--soft)}
+.sheet-wrap{padding:clamp(1rem,4vw,3rem) var(--gutter) 4rem}
+.cv{background:var(--paper);max-width:50rem;margin-inline:auto;padding:clamp(1.5rem,5vw,3rem);border-radius:1.5rem 1.5rem 1.5rem .25rem;box-shadow:0 1.5rem 3rem -1rem rgba(43,29,20,.3)}
+.cv__head{padding-bottom:1.25rem;margin-bottom:1.5rem;border-bottom:2px solid var(--espresso)}
+.cv h1{font:600 clamp(2.25rem,7vw,3.25rem)/1 var(--serif);letter-spacing:-.015em}
+.cv__role{margin-top:.5rem;font-size:1.125rem;color:var(--rose-ink);font-weight:500}
+.cv__contact{margin-top:.5rem;font-size:.9375rem}
+.cv__contact a{color:var(--text)}
+.cv h2{font:600 1.2rem/1.2 var(--serif);margin-bottom:.6rem}
+.cv section{margin-bottom:1.5rem}
+.cv p{margin-bottom:.7rem;max-width:var(--measure)}
+.cv li{margin-bottom:.6rem}
+.cv__main ul{list-style:disc;padding-left:1.2rem}
+.cv__side li{font-size:.9375rem}
+.cv__grid{display:grid;gap:1rem}
+@media(min-width:44rem){.cv__grid{grid-template-columns:1.9fr 1fr;gap:2.5rem}}
+
+@page{size:letter;margin:.5in}
+@media print{
+  html{scroll-behavior:auto}
+  body,.resume-page{background:#fff!important;font-size:9.5pt;line-height:1.4;color:#000;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .no-print,.toolbar{display:none!important}
+  .sheet-wrap{padding:0}
+  .cv{max-width:none;box-shadow:none;border-radius:0;padding:0;background:#fff}
+  .cv__head{padding-bottom:.12in;margin-bottom:.15in}
+  .cv h1{font-size:26pt}
+  .cv__role{font-size:11pt;color:#8A5649}
+  .cv__contact{font-size:9.5pt}
+  .cv h2{font-size:11.5pt;margin-bottom:.05in}
+  .cv section{margin-bottom:.17in;break-inside:avoid}
+  .cv p{margin-bottom:.06in;max-width:none}
+  .cv li{margin-bottom:.05in}
+  .cv__grid{grid-template-columns:1.9fr 1fr;gap:.35in}
+  .cv__side{background:#EFE3D2;padding:.15in .17in;border-radius:.12in .02in .12in .02in;align-self:start}
+  .cv__side li{font-size:9pt}
+  a{color:#000;text-decoration:none}
+}
