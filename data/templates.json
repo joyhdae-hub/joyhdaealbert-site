@@ -1,0 +1,141 @@
+{
+  "_help": "Single source of truth for downloads and resources. Only status 'live' entries render. fulfillment 'file' uses 'path' (relative to the repo root, e.g. downloads/name.xlsx); fulfillment 'url' uses 'url' (for example a Gumroad link). To make a template paid later, change only 'price' and 'fulfillment' (and 'url'). 'alsoAs' lists optional extra formats of the same template.",
+  "items": [
+    {
+      "id": "vendor-contract-tracker",
+      "title": "Vendor and contract tracker",
+      "description": "A spreadsheet that tracks vendors, owners, annual spend, and renewal dates, and highlights anything renewing in the next 90 days.",
+      "category": "Operations",
+      "format": "xlsx",
+      "version": "1.0",
+      "updatedAt": "2026-11-04",
+      "license": "For personal or internal business use only. Not for resale or redistribution. © Joyhdae Albert",
+      "price": 0,
+      "fulfillment": "file",
+      "path": "downloads/vendor-contract-tracker.xlsx",
+      "url": "",
+      "status": "live",
+      "tags": [
+        "vendors",
+        "contracts",
+        "renewals"
+      ]
+    },
+    {
+      "id": "event-run-of-show",
+      "title": "Event and roadshow run-of-show",
+      "description": "A one-document run-of-show for an event or roadshow: timeline, owners, contacts, and logistics.",
+      "category": "Events",
+      "format": "docx",
+      "version": "1.0",
+      "updatedAt": "2026-11-04",
+      "license": "For personal or internal business use only. Not for resale or redistribution. © Joyhdae Albert",
+      "price": 0,
+      "fulfillment": "file",
+      "path": "downloads/event-run-of-show.docx",
+      "url": "",
+      "status": "live",
+      "tags": [
+        "events",
+        "roadshows",
+        "logistics"
+      ]
+    },
+    {
+      "id": "office-move-checklist",
+      "title": "Office move checklist",
+      "description": "A phased checklist for an office move, from the first planning weeks through move day and the first weeks after.",
+      "category": "Operations",
+      "format": "docx",
+      "version": "1.0",
+      "updatedAt": "2026-11-04",
+      "license": "For personal or internal business use only. Not for resale or redistribution. © Joyhdae Albert",
+      "price": 0,
+      "fulfillment": "file",
+      "path": "downloads/office-move-checklist.docx",
+      "url": "",
+      "status": "live",
+      "tags": [
+        "moves",
+        "buildouts",
+        "checklist"
+      ]
+    },
+    {
+      "id": "weekly-briefing",
+      "title": "Weekly briefing",
+      "description": "A one-page briefing an executive assistant can send ahead of the week: priorities, meetings, and decisions needed.",
+      "category": "Executive assistant",
+      "format": "docx",
+      "version": "1.0",
+      "updatedAt": "2026-11-04",
+      "license": "For personal or internal business use only. Not for resale or redistribution. © Joyhdae Albert",
+      "price": 0,
+      "fulfillment": "file",
+      "path": "",
+      "url": "",
+      "status": "draft",
+      "tags": [
+        "briefing",
+        "executive support"
+      ],
+      "alsoAs": [
+        {
+          "format": "pdf",
+          "path": ""
+        }
+      ]
+    },
+    {
+      "id": "vip-contact-card",
+      "title": "VIP contact card",
+      "description": "A one-page reference card for a key contact: preferences, assistants, important dates, and notes.",
+      "category": "Executive assistant",
+      "format": "docx",
+      "version": "1.0",
+      "updatedAt": "2026-11-04",
+      "license": "For personal or internal business use only. Not for resale or redistribution. © Joyhdae Albert",
+      "price": 0,
+      "fulfillment": "file",
+      "path": "",
+      "url": "",
+      "status": "draft",
+      "tags": [
+        "contacts",
+        "executive support"
+      ],
+      "alsoAs": [
+        {
+          "format": "pdf",
+          "path": ""
+        }
+      ]
+    },
+    {
+      "id": "travel-itinerary",
+      "title": "Travel itinerary",
+      "description": "A clean, single-document itinerary for a trip: flights, ground transport, hotels, meetings, and contacts.",
+      "category": "Executive assistant",
+      "format": "docx",
+      "version": "1.0",
+      "updatedAt": "2026-11-04",
+      "license": "For personal or internal business use only. Not for resale or redistribution. © Joyhdae Albert",
+      "price": 0,
+      "fulfillment": "file",
+      "path": "",
+      "url": "",
+      "status": "draft",
+      "tags": [
+        "travel",
+        "itinerary",
+        "executive support"
+      ],
+      "alsoAs": [
+        {
+          "format": "pdf",
+          "path": ""
+        }
+      ]
+    }
+  ]
+}

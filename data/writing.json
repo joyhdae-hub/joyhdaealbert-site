@@ -1,0 +1,4 @@
+{
+  "_help": "LinkedIn posts, any order (the site sorts newest first). Each entry needs title, date (YYYY-MM-DD) and url. 'summary' is one line and optional. While 'items' is empty the whole Writing section is hidden.",
+  "items": []
+}

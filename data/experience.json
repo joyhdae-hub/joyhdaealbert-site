@@ -1,0 +1,40 @@
+{
+  "_help": "One entry per bullet. 'summary' is the sentence shown on the page. 'context', 'whatIDid' and 'result' are optional: leave them as empty strings and they will not appear. An entry with all three empty shows as a plain line with no expand control.",
+  "items": [
+    {
+      "id": "workplace-operations",
+      "summary": "Manage workplace operations across four offices (New York, Stamford, Chicago, Austin) for a firm of roughly 250 people.",
+      "context": "",
+      "whatIDid": "",
+      "result": ""
+    },
+    {
+      "id": "buildouts-relocations",
+      "summary": "Led four office buildouts and relocations, from planning through move-in.",
+      "context": "",
+      "whatIDid": "",
+      "result": ""
+    },
+    {
+      "id": "vendor-tracking",
+      "summary": "Built a vendor tracking system that streamlined spend and contract management.",
+      "context": "",
+      "whatIDid": "",
+      "result": ""
+    },
+    {
+      "id": "contract-savings",
+      "summary": "Negotiated meaningful annual savings across vendor contracts.",
+      "context": "",
+      "whatIDid": "",
+      "result": ""
+    },
+    {
+      "id": "roadshow-logistics",
+      "summary": "Coordinated logistics for investor roadshows and non-deal roadshows, including transportation, meals, and scheduling.",
+      "context": "",
+      "whatIDid": "",
+      "result": ""
+    }
+  ]
+}

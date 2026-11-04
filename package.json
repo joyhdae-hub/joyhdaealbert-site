@@ -1,0 +1,14 @@
+{
+  "name": "joyhdaealbert-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal professional site for Joyhdae Albert. Static HTML, CSS and JavaScript, built from JSON in /data.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/build.mjs && node scripts/serve.mjs",
+    "generate-templates": "python3 scripts/generate_templates.py",
+    "check-templates": "node scripts/check-templates.mjs"
+  }
+}

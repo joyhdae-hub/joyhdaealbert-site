@@ -1,0 +1,47 @@
+{
+  "_help": "Fictional sample data for the /toolkit demo. Dates are given as days from today so the demo always looks current. Nothing here refers to a real company, vendor, person or amount.",
+  "company": "Northfield Advisory",
+  "vendors": [
+    { "id": "v1", "vendor": "Sample Janitorial Co.", "service": "Cleaning", "owner": "Facilities lead", "annualSpend": 48000, "renewalInDays": 24, "status": "Active" },
+    { "id": "v2", "vendor": "Sample Security Partners", "service": "Building security", "owner": "Facilities lead", "annualSpend": 36000, "renewalInDays": 52, "status": "Active" },
+    { "id": "v3", "vendor": "Sample Catering Kitchen", "service": "Catering", "owner": "Office manager", "annualSpend": 22000, "renewalInDays": 81, "status": "Active" },
+    { "id": "v4", "vendor": "Sample IT Support Group", "service": "Managed IT", "owner": "IT lead", "annualSpend": 90000, "renewalInDays": 140, "status": "Active" },
+    { "id": "v5", "vendor": "Sample Office Supply House", "service": "Supplies", "owner": "Office manager", "annualSpend": 15000, "renewalInDays": 210, "status": "Active" },
+    { "id": "v6", "vendor": "Sample Copier Leasing", "service": "Equipment lease", "owner": "Office manager", "annualSpend": 12000, "renewalInDays": 64, "status": "In negotiation" },
+    { "id": "v7", "vendor": "Sample Courier Service", "service": "Courier", "owner": "Office manager", "annualSpend": 6000, "renewalInDays": -12, "status": "Expired" }
+  ],
+  "events": [
+    { "id": "e1", "title": "Quarterly all-hands", "type": "Internal", "startInDays": 6, "location": "Main floor", "status": "Confirmed" },
+    { "id": "e2", "title": "Investor roadshow, day one", "type": "Roadshow", "startInDays": 19, "location": "Offsite", "status": "Planning" },
+    { "id": "e3", "title": "Client dinner", "type": "Client", "startInDays": 27, "location": "Private dining room", "status": "Confirmed" },
+    { "id": "e4", "title": "Team offsite", "type": "Internal", "startInDays": 45, "location": "Offsite", "status": "Planning" }
+  ],
+  "runOfShow": {
+    "e2": [
+      { "id": "r1", "time": "07:30", "item": "Team arrives and final briefing", "owner": "Event lead", "notes": "Confirm printed schedules" },
+      { "id": "r2", "time": "08:15", "item": "Car service departs", "owner": "Logistics", "notes": "Two vehicles" },
+      { "id": "r3", "time": "09:00", "item": "First meeting", "owner": "Presenter", "notes": "" },
+      { "id": "r4", "time": "12:00", "item": "Working lunch", "owner": "Logistics", "notes": "Dietary needs confirmed" },
+      { "id": "r5", "time": "15:30", "item": "Final meeting and debrief", "owner": "Event lead", "notes": "" }
+    ],
+    "e1": [
+      { "id": "r6", "time": "09:30", "item": "Doors open, coffee", "owner": "Office manager", "notes": "" },
+      { "id": "r7", "time": "10:00", "item": "Welcome and agenda", "owner": "Host", "notes": "" },
+      { "id": "r8", "time": "11:30", "item": "Close and lunch", "owner": "Office manager", "notes": "" }
+    ]
+  },
+  "projects": [
+    { "id": "p1", "project": "North office refresh", "type": "Buildout", "status": "In progress", "owner": "Project lead", "dueInDays": 70 },
+    { "id": "p2", "project": "Second-floor relocation", "type": "Move", "status": "Planning", "owner": "Office manager", "dueInDays": 120 },
+    { "id": "p3", "project": "Meeting room upgrades", "type": "Buildout", "status": "Blocked", "owner": "Facilities lead", "dueInDays": 40 },
+    { "id": "p4", "project": "Storage consolidation", "type": "Move", "status": "Done", "owner": "Office manager", "dueInDays": -20 },
+    { "id": "p5", "project": "Reception redesign", "type": "Buildout", "status": "Planning", "owner": "Project lead", "dueInDays": 150 }
+  ],
+  "requests": [
+    { "id": "q1", "title": "Replace conference room display", "category": "IT", "requester": "Sample requester A", "priority": "Medium", "status": "Open", "openedInDays": -3 },
+    { "id": "q2", "title": "Flickering light in corridor", "category": "Facilities", "requester": "Sample requester B", "priority": "Low", "status": "In progress", "openedInDays": -6 },
+    { "id": "q3", "title": "New laptop setup", "category": "IT", "requester": "Sample requester C", "priority": "High", "status": "Open", "openedInDays": -1 },
+    { "id": "q4", "title": "Move two desks to the east wing", "category": "Facilities", "requester": "Sample requester D", "priority": "Medium", "status": "Done", "openedInDays": -14 },
+    { "id": "q5", "title": "Printer not connecting", "category": "IT", "requester": "Sample requester E", "priority": "Medium", "status": "In progress", "openedInDays": -2 }
+  ]
+}

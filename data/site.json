@@ -1,0 +1,104 @@
+{
+  "name": "Joyhdae Albert",
+  "url": "https://joyhdaealbert.com",
+  "title": "Joyhdae Albert | Operations & Executive Leadership in Financial Services",
+  "description": "Joyhdae Albert is an operations and executive leader in financial services, with nearly eleven years managing workplace operations, executive support, and vendor strategy across a multi-office firm. Trustee and board secretary.",
+  "jobTitle": "Senior Office Manager and Executive Assistant",
+  "eyebrow": "Operations & Executive Leadership",
+  "tagline": "I build the systems and spaces that keep a firm running, and I do it in a way people feel.",
+  "intro": "I'm a Senior Office Manager and Executive Assistant with nearly eleven years of experience in financial services. My work sits where operations, executive support, and workplace experience meet. The essential machinery that lets everyone else do their best work.",
+  "intro2": "Clear communication, steady under pressure, and an eye for the detail everyone else missed. I run four offices across four states, and I care as much about how a space feels as how it functions.",
+  "email": "joyhdae.albert@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/joyhdaealbert",
+  "showResources": true,
+  "showToolkit": true,
+  "stats": [
+    {
+      "qualifier": "Nearly",
+      "value": 11,
+      "label": "years in financial services"
+    },
+    {
+      "qualifier": "",
+      "value": 4,
+      "label": "offices across four states"
+    },
+    {
+      "qualifier": "Roughly",
+      "value": 250,
+      "label": "people supported"
+    },
+    {
+      "qualifier": "",
+      "value": 4,
+      "label": "buildouts and relocations"
+    }
+  ],
+  "services": [
+    "Office & workplace operations",
+    "Executive & business support",
+    "Vendor management",
+    "Contract negotiation",
+    "Office buildouts & relocations",
+    "Event & travel logistics"
+  ],
+  "board": [
+    {
+      "role": "Trustee",
+      "organization": "Stoneleigh-Burnham School"
+    },
+    {
+      "role": "Board Secretary",
+      "organization": "Homeowners Association"
+    }
+  ],
+  "education": [
+    {
+      "credential": "Associate of Applied Science",
+      "institution": "Berkeley College",
+      "note": ""
+    },
+    {
+      "credential": "Coursework toward a Bachelor's degree",
+      "institution": "Tufts University",
+      "note": "Goldman Sachs Scholar"
+    }
+  ],
+  "analytics": {
+    "provider": "none",
+    "plausible": {
+      "domain": "",
+      "scriptSrc": "https://plausible.io/js/script.tagged-events.js"
+    },
+    "cloudflare": {
+      "token": ""
+    }
+  },
+  "copy": {
+    "navAbout": "About",
+    "navExperience": "Experience",
+    "navServices": "What I do",
+    "navWriting": "Writing",
+    "navResources": "Resources",
+    "navBackground": "Background",
+    "navContact": "Contact",
+    "ctaContact": "Get in touch",
+    "ctaResume": "View resume",
+    "statsHeading": "By the numbers",
+    "experienceHeading": "Selected experience",
+    "experienceIntro": "Select an item to read more where there is more to read.",
+    "servicesHeading": "What I do",
+    "writingHeading": "Writing",
+    "writingIntro": "Notes and posts, newest first.",
+    "resourcesHeading": "Resources",
+    "resourcesIntro": "Free templates and a small demo of the workplace operations tools I rely on.",
+    "boardHeading": "Board & governance",
+    "educationHeading": "Education",
+    "contactHeading": "Get in touch",
+    "contactIntro": "A short note is plenty. I read everything and reply personally.",
+    "copyEmail": "Copy email",
+    "copiedEmail": "Email copied",
+    "formSuccess": "Thank you. Your message is on its way, and I'll reply as soon as I can.",
+    "formError": "That did not go through. Please try again, or reach me on LinkedIn."
+  }
+}

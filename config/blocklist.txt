@@ -1,0 +1,5 @@
+# Blocklist for "npm run check-templates".
+# One term per line. Blank lines and lines starting with # are ignored.
+# Any term found (case-insensitive) in the text of a file in /downloads fails the check.
+# Add anything that must never appear in a downloadable file, such as an employer or client name.
+# This file is intentionally empty to start; the terms are yours to add.
